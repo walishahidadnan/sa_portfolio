@@ -115,7 +115,7 @@ const HeroSection = () => {
   return (
     <section
       ref={heroRef}
-      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-portfolio-light"
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-portfolio-light mt-16 pt-10"
     >
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         {/* Profile Card */}

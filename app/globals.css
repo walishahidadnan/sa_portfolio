@@ -104,3 +104,10 @@ html {
   opacity: 0;
   transform: scale(0.8);
 }
+
+
+.test-box {
+  background: pink;
+  color: black;
+  padding: 10px;
+}

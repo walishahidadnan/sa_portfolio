@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { ArrowRight, Download, Mail } from 'lucide-react';
+import Mee from "../app/mee.jpg";
 
 // Register ScrollTrigger plugin
 if (typeof window !== 'undefined') {
@@ -124,17 +125,17 @@ const HeroSection = () => {
             <CardContent className="p-8 text-center">
               <Avatar className="w-32 h-32 mx-auto mb-6 ring-4 ring-accent dark:ring-accent-dark ring-offset-4 ring-offset-surface dark:ring-offset-surface-dark">
                 <AvatarImage
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQHBPawoc1xFbw/profile-displayphoto-shrink_200_200/B4DZbge_qDHEAY-/0/1747522944307?e=1756339200&v=beta&t=MP8vva7DCKZU17EhRG_zSt0Wt85WL_ibLHF5LXNUVcw"
                   alt="Profile"
                   className="object-cover"
                 />
                 <AvatarFallback className="text-2xl font-bold bg-accent dark:bg-accent-dark text-white">
-                  JD
+                  SHAHID ADNAN
                 </AvatarFallback>
               </Avatar>
               <div className="space-y-2">
                 <p className="text-portfolio-secondary text-sm font-medium uppercase tracking-wide">
-                  Full Stack Developer
+                  Front-End Developer
                 </p>
                 <p className="text-portfolio-primary text-base leading-relaxed">
                   Passionate about creating beautiful, functional web experiences with modern technologies.
@@ -151,7 +152,7 @@ const HeroSection = () => {
               ref={nameRef}
               className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-portfolio-primary leading-tight"
             >
-              John Doe
+              Shahid Adnan 
               <span className="block text-portfolio-accent text-3xl sm:text-4xl lg:text-5xl xl:text-6xl">
                 Developer
               </span>

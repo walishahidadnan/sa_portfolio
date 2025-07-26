@@ -69,19 +69,19 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'john.doe@example.com',
-      href: 'mailto:john.doe@example.com',
+      value: 'shahid2019adnan@gmail.com',
+      href: 'mailto:shahid2019adnan@gmail.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '+92 348 885-7303',
+      href: 'tel:+923488857303',
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Islamabad Pakistan',
       href: '#',
     },
   ];
@@ -90,13 +90,13 @@ export default function ContactSection() {
     {
       icon: Github,
       name: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/walishahidadnan',
       color: 'hover:text-gray-900 dark:hover:text-gray-100',
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/shahid-adnan-webartisan-901579222/',
       color: 'hover:text-blue-600',
     },
     {

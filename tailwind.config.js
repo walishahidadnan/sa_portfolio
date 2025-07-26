@@ -74,6 +74,13 @@ const config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        portfolio: {
+          light: '#fdfdfd',
+        },
+
+        loader: {
+          DEFAULT: '#6366f1', // Violet-500 or any preferred loader color
+        },
       },
       keyframes: {
         'accordion-down': {

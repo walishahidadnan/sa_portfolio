@@ -38,18 +38,18 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <h2 className="text-xl font-bold text-portfolio-accent">
-              Portfolio
+              WalynTix
             </h2>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
-            <Button variant="ghost" className="text-portfolio-secondary hover:text-portfolio-primary">
+            <Button variant="ghost" className="text-portfolio-secondary hover:text-portfolio-primary hover:text-white">
               About
             </Button>
-            <Button variant="ghost" className="text-portfolio-secondary hover:text-portfolio-primary">
+            <Button variant="ghost" className="text-portfolio-secondary hover:text-portfolio-primary hover:text-white">
               Projects
             </Button>
-            <Button variant="ghost" className="text-portfolio-secondary hover:text-portfolio-primary">
+            <Button variant="ghost" className="text-portfolio-secondary hover:text-portfolio-primary hover:text-white">
               Contact
             </Button>
           </nav>
